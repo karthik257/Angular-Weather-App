@@ -1,0 +1,53 @@
+<div class="container mt-5">
+
+  <!-- <h1 class="display-1 text-center">Detail Info</h1> -->
+
+<table class="table table-striped-columns table-light table-bordered table-hover"  *ngFor="let x of weather">
+    <caption>
+        <h1 class="mt-3 display-3"> {{x.name}},{{x.sys.country}} </h1>
+
+    </caption>
+  <tbody>
+    <tr>
+      <td>Co-odrinates</td>
+      <td>{{ x.coord.lon }} Lon</td>
+      <td>{{ x.coord.lat }} Lat</td>
+    </tr>
+    <tr>
+      <td>{{ x.weather[0].main }}</td>
+      <td>{{ x.weather[0].description }}</td>
+      <td> <i class="fa fa-cloud" aria-hidden="true"></i>
+
+</td>
+    </tr>
+    <tr>
+      <td>{{ x.main.temp }} Temp</td>
+      <td>{{ x.main.temp_min }} min</td>
+      <td>{{ x.main.temp_max }} max</td>
+    </tr>
+    <tr>
+      <td>Humidity</td>
+      <td>{{ x.main.humidity }}</td>
+      <td><i class="fa fa-tint" aria-hidden="true"></i>
+      </td>
+    </tr>
+    <tr>
+      <td>Wind</td>
+      <td>{{ x.wind.speed }} speed</td>
+      <td>{{ x.wind.deg }} deg</td>
+    </tr>
+    <tr>
+        <td>{{getSunrise(x.sys.sunrise)}} Sunrise</td>
+        <td>{{getSunrise(x.sys.sunset)}} Sunset</td>
+      <td><i class="fa fa-sun-o" aria-hidden="true"></i>
+      </td>
+
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+
+
+<!-- {"coord":{"lon":73.8553,"lat":18.5196},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"base":"stations","main":{"temp":24.39,"feels_like":24.97,"temp_min":24.39,"temp_max":24.39,"pressure":1003,"humidity":80,"sea_level":1003,"grnd_level":942},"visibility":10000,"wind":{"speed":4.01,"deg":242,"gust":8.44},"clouds":{"all":93},"dt":1656239384,"sys":{"country":"IN","sunrise":1656203407,"sunset":1656251065},"timezone":19800,"id":1259229,"name":"Pune","cod":200} -->

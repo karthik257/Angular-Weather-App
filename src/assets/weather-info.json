@@ -1,0 +1,247 @@
+[
+    {
+      "id": "1",
+      "info": {
+            "coord": {
+                "lon": 77.6033,
+                "lat": 12.9762
+            },
+            "weather": [
+                {
+                    "id": 802,
+                    "main": "Clouds",
+                    "description": "scattered clouds",
+                    "icon": "03n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 296.98,
+                "feels_like": 297.09,
+                "temp_min": 296.95,
+                "temp_max": 297.05,
+                "pressure": 958,
+                "humidity": 64
+            },
+            "visibility": 8000,
+            "wind": {
+                "speed": 4.12,
+                "deg": 240
+            },
+            "clouds": {
+                "all": 40
+            },
+            "dt": 1655995050,
+            "sys": {
+                "type": 2,
+                "id": 2040609,
+                "country": "IN",
+                "sunrise": 1655943900,
+                "sunset": 1655990300
+            },
+            "timezone": 19800,
+            "id": 1277333,
+            "name": "Bengaluru",
+            "cod": 200
+        }
+    },
+    {
+      "id": "2",
+      "info": {
+            "coord": {
+                "lon": -0.1257,
+                "lat": 51.5085
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04d"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 297.08,
+                "feels_like": 297.04,
+                "temp_min": 296.01,
+                "temp_max": 298.98,
+                "pressure": 1009,
+                "humidity": 58
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 0
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1655995824,
+            "sys": {
+                "type": 2,
+                "id": 2019646,
+                "country": "GB",
+                "sunrise": 1655955812,
+                "sunset": 1656015703
+            },
+            "timezone": 3600,
+            "id": 2643743,
+            "name": "London",
+            "cod": 200
+        }
+    },
+    {
+      "id": "3",
+      "info": {
+            "coord": {
+                "lon": -76.5074,
+                "lat": 38.3004
+            },
+            "weather": [
+                {
+                    "id": 501,
+                    "main": "Rain",
+                    "description": "moderate rain",
+                    "icon": "10d"
+                },
+                {
+                    "id": 701,
+                    "main": "Mist",
+                    "description": "mist",
+                    "icon": "50d"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 292.31,
+                "feels_like": 292.71,
+                "temp_min": 290.74,
+                "temp_max": 294.07,
+                "pressure": 1014,
+                "humidity": 93
+            },
+            "visibility": 8047,
+            "wind": {
+                "speed": 4.12,
+                "deg": 90
+            },
+            "rain": {
+                "1h": 0.31
+            },
+            "clouds": {
+                "all": 100
+            },
+            "dt": 1655995920,
+            "sys": {
+                "type": 2,
+                "id": 2011802,
+                "country": "US",
+                "sunrise": 1655977394,
+                "sunset": 1656030790
+            },
+            "timezone": -14400,
+            "id": 4350049,
+            "name": "California",
+            "cod": 200
+        }
+    },
+    {
+      "id": "4",
+      "info": {
+            "coord": {
+                "lon": 0.8366,
+                "lat": 45.9784
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04d"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 292.97,
+                "feels_like": 292.1,
+                "temp_min": 292.97,
+                "temp_max": 292.97,
+                "pressure": 1010,
+                "humidity": 42,
+                "sea_level": 1010,
+                "grnd_level": 979
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 2.37,
+                "deg": 310,
+                "gust": 2.85
+            },
+            "clouds": {
+                "all": 80
+            },
+            "dt": 1655995939,
+            "sys": {
+                "type": 1,
+                "id": 6459,
+                "country": "FR",
+                "sunrise": 1655957181,
+                "sunset": 1656013873
+            },
+            "timezone": 7200,
+            "id": 6454825,
+            "name": "Pairs",
+            "cod": 200
+        }
+    },
+    {
+      "id": "5",
+      "info": {
+            "coord": {
+                "lon": 116.3972,
+                "lat": 39.9075
+            },
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 299.09,
+                "feels_like": 298.73,
+                "temp_min": 299.09,
+                "temp_max": 299.09,
+                "pressure": 997,
+                "humidity": 38,
+                "sea_level": 997,
+                "grnd_level": 992
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 2.01,
+                "deg": 295,
+                "gust": 5.12
+            },
+            "clouds": {
+                "all": 0
+            },
+            "dt": 1655995826,
+            "sys": {
+                "type": 1,
+                "id": 9609,
+                "country": "CN",
+                "sunrise": 1655930783,
+                "sunset": 1655984794
+            },
+            "timezone": 28800,
+            "id": 1816670,
+            "name": "Beijing",
+            "cod": 200
+        }
+    }
+]
